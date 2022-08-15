@@ -7,22 +7,28 @@ public class Main10953 {
 		String s = "5\n1,1\n2,3\n3,4\n9,8\n5,2\n";
 		Scanner sc = new Scanner(s);
 		System.out.println(s.substring(0, 1));
+		int total = Integer.parseInt(s.substring(0, 1));
 		String input = s.substring(2);
-		System.out.println(input);
-//		String[] inputArr = input.split(",");
-//		for(String str : inputArr) {
-//			System.out.println(str);
-//		}
-//		System.out.println(input);
-//		int length = Integer.parseInt(s.substring(0, 1));
-//		int[] a = new int[length];
-//		int[] b = new int[length];
+		String[] inputs = input.split("\n");
+		String[] inputsA = new String[total];
+		String[] inputsB = new String[total];
 		
-//		while(sc.hasNext()) {
-//			for(int i=0; i<length; i++) {
-//				a[i] = 
-//			}
+		for(int i = 0; i<inputs.length; i++) {
+			
+		}
+		
+		
+//		int[] a = new int[total];
+//		int[] b = new int[total];
+//		for(int i=0; i<total; i++) {
+//			a[i] = 
 //		}
-		System.out.println(s);
+		
+		
+		
+		// System.out.println(input);
+		
+		
+		// System.out.println(s);
 	}
 }
